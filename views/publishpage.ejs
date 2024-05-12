@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>publish page</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+
+</head>
+<body class="bg-[#F1F0E8]">
+    <form action="/finalpublish" method="post">
+        <div class="grid grid-cols-2">
+            <div class="col-span-1">
+                <textarea name="finalblog" class=" bg-[#EEE0C9] w-[600px] h-[650px] p-3 font-semibold border-none outline-none ml-8 mt-8"><%=content %></textarea>
+            </div>
+            <div class="col-span-1">
+                <p class="mt-36 mr-8 ">Dear Blogger,<br>
+                    <br>
+                    Your website is more than a platform—it's your canvas, your voice, your connection to the world.<br> Embrace its power. Share your unique perspective, inspire with your words, and build a community <br> that thrives on authenticity.
+                    
+                    In the face of challenges, trust in your creativity and resilience.<br> Let passion guide your journey and cherish the connections you forge along the way.<br>
+                    
+                    Your story matters. Share it boldly, and let your blogging website be a beacon of inspiration in the digital landscape.<br>
+                    <br>
+                    Warm regards,<br>
+                    Blogit</p>
+                <input type="text" name="blogger" placeholder="Enter your name" class=" mt-7 p-3 border text-gray-500 border-gray-200 outline-none">
+                <a href="/"><button class="text-white font-bold text-lg bg-[#96B6C5] hover:bg-[#8bc0d8] px-5 py-2 ml-20 mt-12 ">Share</button></a>
+            </div>
+            
+        </div>
+
+    </form>
+
+    
+</body>
+</html>
