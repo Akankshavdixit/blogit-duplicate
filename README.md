@@ -10,7 +10,8 @@ PostgreSQL
 How to run:
 
 1. npm i
-2. npm run build
-3. nodemon index.js
+2. npm i dotenv
+3. npm run build
+4. nodemon index.js
    
    
